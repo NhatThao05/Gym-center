@@ -1,6 +1,6 @@
-import { Button } from '@mui/material';
 import {ThemeProvider} from "@mui/system";
 import { useEffect } from 'react';
+import Appbar from './components/appbar';
 import theme from './styles/theme';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         searchBox
         appdrawer
       */}
-        <Button variant='contained'>Click me</Button>
+        <Appbar />
 
         
       {/* </Box>   */}
