@@ -1,7 +1,9 @@
 import {ThemeProvider} from "@mui/system";
 import { useEffect } from 'react';
-import Appbar from './components/appbar';
 import theme from './styles/theme';
+import Appbar from './components/appbar';
+import Banner from './components/banner';
+import Products from "./components/products";
 
 function App() {
   useEffect(() => {
@@ -25,6 +27,8 @@ function App() {
         appdrawer
       */}
         <Appbar />
+        <Banner />
+        <Products />
 
         
       {/* </Box>   */}
