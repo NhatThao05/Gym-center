@@ -19,7 +19,7 @@ export const Colors = {
  dim_grey: "#696969",
  dove_gray: "#d5d5d5",
  body_bg: "#f3f6f9",
- light_gray: "#f5f3f4",
+ light_gray: "#E9ECEF",
  ///////////////
  // Solid Color
  ///////////////

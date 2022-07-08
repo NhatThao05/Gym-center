@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import theme from './styles/theme';
 import Appbar from './components/appbar';
 import Banner from './components/banner';
-import Products from "./components/products";
+import Footer from "./components/footer";
 
 function App() {
   useEffect(() => {
@@ -13,9 +13,7 @@ function App() {
     <ThemeProvider theme={theme} sx={{
       background: "#EDF2F4"
     }}>
-      {/* <Box sx={{
-        background: "#EDF2F4"
-      }}> */}
+      
         {/* 
         Appbar
         banner
@@ -28,10 +26,8 @@ function App() {
       */}
         <Appbar />
         <Banner />
-        <Products />
-
+        <Footer />
         
-      {/* </Box>   */}
     </ThemeProvider>  
   );
 }
