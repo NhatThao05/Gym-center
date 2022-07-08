@@ -1,5 +1,5 @@
 import { Grid, Box, Typography, ListItemText, List } from "@mui/material";
-import {FooterTitle, FooterNetwork} from "../../styles/footer"
+import {FooterTitle} from "../../styles/footer"
 import { Colors } from "../../styles/theme";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
@@ -10,12 +10,14 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
  return (
+  <>
   <Box sx={{
    background: "#941B0C",
    color: Colors.white,
    p: {xs: 4, md: 10},
    pt: 12,
    pb: 12,
+   mt: 10,
    fontSize: {xs: '12px', md: '14px'}
   }}>
    <Grid container spacing={2} justifyContent="center">
@@ -79,10 +81,10 @@ export default function Footer() {
          <FacebookIcon sx={{mr: 2, fontSize: '2.5em'}} />
          <InstagramIcon sx={{mr: 2, fontSize: '2.5em'}} />
          <YouTubeIcon sx={{fontSize: '2.5em'}}/>
-
       </Box>
     </Grid>
    </Grid>
   </Box>
+  </>
  )
 }

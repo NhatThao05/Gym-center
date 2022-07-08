@@ -75,3 +75,30 @@ export const clubs = [
   image: "https://citigym.com.vn/storage/uploads/8-1.jpg"
  },
 ]
+
+export const tranformation = [
+    {
+        id: 1,
+        image: "https://i.pinimg.com/236x/bd/e4/fe/bde4fe619660997e2955d09e49dee990.jpg"
+    },
+    {
+        id: 2,
+        image: "https://i.pinimg.com/236x/0b/9d/27/0b9d276b52602f54b18713031e87c973.jpg"
+    },
+    {
+        id: 3,
+        image: "https://i.pinimg.com/236x/27/c7/d7/27c7d71f4eb381f5983f55cb777968b4.jpg"
+    },
+    {
+        id: 4,
+        image: "https://i.pinimg.com/236x/f2/e9/72/f2e97287cb65aeb06d07de9cd7ab5b75.jpg"
+    },
+    {
+        id: 5,
+        image: "https://i.pinimg.com/236x/99/76/e1/9976e1a18277bbb64f43e9f329c22fc6.jpg"
+    },
+    {
+        id: 6,
+        image: "https://i.pinimg.com/236x/e6/ef/d5/e6efd52860dfe384899177bb3153c5af.jpg"
+    }
+]

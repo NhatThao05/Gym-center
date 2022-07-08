@@ -4,6 +4,8 @@ import theme from './styles/theme';
 import Appbar from './components/appbar';
 import Banner from './components/banner';
 import Footer from "./components/footer";
+// import UnderFooter from "./components/underFooter";
+import Transformation from "./components/tranformation";
 
 function App() {
   useEffect(() => {
@@ -17,16 +19,17 @@ function App() {
         {/* 
         Appbar
         banner
-        promotion
         title
         products
         footer
-        searchBox
         appdrawer
       */}
         <Appbar />
         <Banner />
+        <Transformation />
+
         <Footer />
+        {/* <UnderFooter /> */}
         
     </ThemeProvider>  
   );
