@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Typography, TextField } from "@mui/material";
+import { Typography } from "@mui/material";
 import { Colors } from "../theme";
 
 
@@ -22,14 +22,5 @@ export const ModalImage = styled('img')(({src, theme}) => ({
  },
 }))
 
-export const SubscribeTf = styled(TextField)(() => ({
- ".MuiInputLabel-root": {
-   color: Colors.secondary,
- },
- width: '200px',
 
- ".MuiInput-root::before": {
-   border: `1px solid ${Colors.secondary}`,
- },
-}));
 

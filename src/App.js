@@ -4,8 +4,8 @@ import theme from './styles/theme';
 import Appbar from './components/appbar';
 import Banner from './components/banner';
 import Footer from "./components/footer";
-// import UnderFooter from "./components/underFooter";
 import Transformation from "./components/tranformation";
+import Ourservice from "./components/ourservice";
 
 function App() {
   useEffect(() => {
@@ -16,20 +16,12 @@ function App() {
       background: "#EDF2F4"
     }}>
       
-        {/* 
-        Appbar
-        banner
-        title
-        products
-        footer
-        appdrawer
-      */}
+        {/* appdrawer */}
         <Appbar />
         <Banner />
+        <Ourservice />
         <Transformation />
-
         <Footer />
-        {/* <UnderFooter /> */}
         
     </ThemeProvider>  
   );

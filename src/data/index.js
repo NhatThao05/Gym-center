@@ -1,8 +1,8 @@
-export const products = [
+export const Services = [
  {
      id: 1,
      name: "BUMS AND TUMS",
-     image: "https://citigym.com.vn/themes/citigym/images/svg/stripe-1.svg"
+     image: "https://citigym.com.vn/storage/uploads/body-combat.jpg"
  },
  {
      id: 2,
@@ -19,16 +19,16 @@ export const products = [
      name: "GROUPX",
      image: "https://citigym.com.vn/storage/uploads/thumbnail-4-2.jpg"
  },
- {
-     id: 5,
-     name: "YOGA",
-     image: "https://citigym.com.vn/storage/uploads/thumbnail-3-2.jpg"
- },
- {
-     id: 6,
-     name: "PERSONAL TRAINER",
-     image: "https://citigym.com.vn/storage/uploads/untitled-8-10.jpg"
- }
+//  {
+//      id: 5,
+//      name: "YOGA",
+//      image: "https://citigym.com.vn/storage/uploads/thumbnail-3-2.jpg"
+//  },
+//  {
+//      id: 6,
+//      name: "PERSONAL TRAINER",
+//      image: "https://citigym.com.vn/storage/uploads/untitled-8-10.jpg"
+//  }
 ]
 
 export const clubs = [
