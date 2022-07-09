@@ -28,7 +28,6 @@ export default function Ourservice() {
      justifyContent={"center"} 
      sx={{margin: "20px 4px 10px 4px"}} 
      spacing={{xs: 2, md: 3}}
-     // columns={{xs: 4, sm: 8, md: 12}}
      >{renderServices}</Grid>
    </Box>
   </>

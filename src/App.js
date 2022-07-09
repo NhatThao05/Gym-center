@@ -6,6 +6,8 @@ import Banner from './components/banner';
 import Footer from "./components/footer";
 import Transformation from "./components/tranformation";
 import Ourservice from "./components/ourservice";
+import AppDrawer from "./components/drawer";
+import { UIProvider } from "./context/ui";
 
 function App() {
   useEffect(() => {
@@ -15,14 +17,14 @@ function App() {
     <ThemeProvider theme={theme} sx={{
       background: "#EDF2F4"
     }}>
-      
-        {/* appdrawer */}
+      <UIProvider>
         <Appbar />
         <Banner />
         <Ourservice />
         <Transformation />
         <Footer />
-        
+        <AppDrawer />
+      </UIProvider>
     </ThemeProvider>  
   );
 }

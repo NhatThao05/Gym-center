@@ -42,6 +42,14 @@ const theme = createTheme({
     disableRipple: true,
     disableElevation: true
    }
+  },
+  MuiDrawer: {
+   styleOverrides: {
+    paper: {
+     width: 300,
+     
+    }
+   }
   }
  }
 
